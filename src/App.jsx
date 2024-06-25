@@ -3,6 +3,7 @@ import Index from "./pages/Index.jsx";
 import Topics from "./pages/Topics.jsx";
 import Thread from "./pages/Thread.jsx";
 import NewThread from "./pages/NewThread.jsx";
+import Register from "./pages/Register.jsx";
 import Navbar from "./components/Navbar.jsx";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/topics" element={<Topics />} />
         <Route exact path="/topics/:id" element={<Thread />} />
         <Route exact path="/new-thread" element={<NewThread />} />
+        <Route exact path="/register" element={<Register />} />
       </Routes>
     </Router>
   );
